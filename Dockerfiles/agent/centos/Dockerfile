@@ -1,5 +1,6 @@
 # syntax=docker/dockerfile:1
 ARG MAJOR_VERSION=7.0
+ARG GOARCH=amd64
 ARG ZBX_VERSION=${MAJOR_VERSION}.0
 ARG BUILD_BASE_IMAGE=zabbix-build-mysql:centos-${ZBX_VERSION}
 
